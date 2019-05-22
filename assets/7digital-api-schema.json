@@ -303,6 +303,17 @@
 					"method": "GET"
 				}
 			]
+		},
+		"Report":{
+			"resource":"preview",
+			"actions":[
+				{
+					"apiCall":"log",
+					"methodName":"log",
+					"oauth":"2-legged",
+					"method":"POST"
+				}
+			]
 		}
 	}
 }
